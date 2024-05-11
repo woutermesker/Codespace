@@ -7,6 +7,10 @@
     border-color: #e5e7eb;
 }
 
+body {
+    margin: 0px;
+}
+
 ::before,
 ::after {
     --tw-content: '';
@@ -477,17 +481,21 @@ svg:not(:root) {
         padding-top: 24px;
         padding-bottom: 24px;
         background: #ECE9E6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+        background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     }
 
     .changelog-hero .container-xl {
-        
         width: 1280px;
     }
-       .col-md-6 {
-        width: 49.99999998%;
+       .col-md-7 {
+        width: 59.99999998%;
+        float: left;
+    }
+        .col-md-5 {
+        width: 39.99999998%;
+        float: left;
     }
     
 }
