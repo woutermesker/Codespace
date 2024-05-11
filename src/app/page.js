@@ -4,7 +4,23 @@ import './styles.css';
 
 export default function Home() {
   return (
-    <main className="wrapper">
+    <main className="wrapper ">
+      <div className="changelog-hero d-flex flex-md-items-center position-relative overflow-hidden">
+  <div className="container-xl mx-auto width-full height-full top-0 right-0 events-none">
+
+  <div className="container-xl mx-auto p-responsive-blog width-full position-relative z-1">
+    <div className="flex-wrap flex-md-items-center gutter-spacious">
+      <div className="col-12 col-md-6">
+      	<h1 style={{marginTop:"40px"}}>Changelog HEET</h1>
+        <p className="f3-mktg col-9-max mt-3 mt-md-4 mb-8 mb-md-0">Subscribe to all <span className="text-capitalize">Changelog</span> posts via <a className="cl-label-hero__text_link cl-label-hero__text_link_rss" href="https://github.blog/changelog/feed/">RSS</a> or follow GitHub Changelog on <a className="cl-label-hero__text_link cl-label-hero__text_link_twitter" href="https://twitter.com/ghchangelog">Twitter</a> to stay updated on everything we ship.</p>
+       </div>
+      <div className="col-12 col-md-6">
+        
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
       <div className="container-xl mx-auto p-responsive-blog js-ajax-landing">
         <article id="changelog-78011" className="d-flex gutter-spacious flex-wrap position-relative changelog-line js-ajax-fetchable post-78011 changelog type-changelog status-publish hentry changelog-label-copilot">
           <div className="pb-4 pt-5 pt-md-7 col-12 col-md-5 position-relative">
